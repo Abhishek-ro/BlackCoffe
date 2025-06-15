@@ -11,12 +11,12 @@ export default function useInsights(filters) {
   const query = new URLSearchParams(cleanFilters).toString();
 
   const { data, error, isLoading } = useSWR(
-    `http://localhost:5000/api/insights?${query}`,
+    `https://blackcoffe-xw31.onrender.com/api/insights?${query}`,
     fetcher
   );
 
   return {
-    insights: Array.isArray(data) ? data : [], 
+    insights: Array.isArray(data) ? data : [],
     isLoading,
     isError: error,
   };
