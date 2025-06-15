@@ -9,7 +9,7 @@ export default function useInsights(filters) {
   );
 
   const query = new URLSearchParams(cleanFilters).toString();
-
+ 
   const { data, error, isLoading } = useSWR(
     `https://blackcoffe-xw31.onrender.com/api/insights?${query}`,
     fetcher
