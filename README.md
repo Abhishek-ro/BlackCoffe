@@ -19,7 +19,7 @@ This is a full-stack interactive dashboard built as per Blackcoffer's assignment
 
 ## 🔗 Live Links
 - **Frontend (Vercel):** https://your-frontend.vercel.app/
-- **Backend (Render/Fly):** https://your-api-url.onrender.com/api/insights
+- **Backend (Render/Fly):** https://blackcoffe-xw31.onrender.com/api/insights
 
 ## ▶️ How to Run Locally
 
