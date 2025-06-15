@@ -6,7 +6,7 @@ This is a full-stack interactive dashboard built as per Blackcoffer's assignment
 ## 🔧 Technologies Used
 - **Frontend:** Next.js 15, Tailwind CSS, SWR, Recharts
 - **Backend:** Node.js, Express.js, MongoDB Atlas, Mongoose
-- **Data Viz:** Recharts (BarChart, LineChart)
+- **Data Viz:** Recharts
 
 ## 📦 Features
 - MongoDB-connected dashboard
@@ -15,11 +15,11 @@ This is a full-stack interactive dashboard built as per Blackcoffer's assignment
 - Charts for: Intensity by Sector, Likelihood by Country
 - Export to CSV
 - Dark mode toggle
-- Deployed frontend + backend (see links below)
+- Deployed frontend + backend 
 
 ## 🔗 Live Links
-- **Frontend (Vercel):** https://your-frontend.vercel.app/
-- **Backend (Render/Fly):** https://blackcoffe-xw31.onrender.com/api/insights
+- **Frontend:** https://blackcoffe-blue.vercel.app/
+- **Backend:** https://blackcoffe-xw31.onrender.com/api/insights
 
 ## ▶️ How to Run Locally
 
